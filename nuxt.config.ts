@@ -9,7 +9,7 @@ import { getBlogPosts } from "./hooks/scripts/getBlogPosts"
 
 export default defineNuxtConfig({
   nitro: {
-    preset: "static",
+    preset: "netlify",
   },
 
   app: {
