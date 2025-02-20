@@ -17,6 +17,14 @@ export default defineNuxtConfig({
     pageTransition: { name: "fade", mode: "out-in" },
   },
 
+
+  router: {
+    base: '/Portfolio_AbraAhmed/'  
+  },
+  build: {
+
+  },
+
   css: ["~/assets/css/main.scss"],
 
   modules: [
