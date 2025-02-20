@@ -8,6 +8,8 @@ import { generateOgImages } from "./hooks/generateOgImages"
 import { getBlogPosts } from "./hooks/scripts/getBlogPosts"
 
 export default defineNuxtConfig({
+  target: 'static',
+  
   nitro: {
     preset: "netlify",
   },
