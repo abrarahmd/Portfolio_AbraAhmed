@@ -7,7 +7,7 @@
 /sitemap.xml
   Content-Type: text/xml; charset=UTF-8
   Cache-Control: public, max-age=600, must-revalidate
-  X-Sitemap-Prerendered: 2025-02-20T15:41:14.619Z
+  X-Sitemap-Prerendered: 2025-02-20T15:43:34.809Z
 /_nuxt
   X-Robots-Tag: noindex
 /_nuxt/*
