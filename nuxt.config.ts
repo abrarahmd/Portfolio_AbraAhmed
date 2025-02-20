@@ -8,8 +8,6 @@ import { generateOgImages } from "./hooks/generateOgImages"
 import { getBlogPosts } from "./hooks/scripts/getBlogPosts"
 
 export default defineNuxtConfig({
-  target: 'static',
-
   nitro: {
     preset: "netlify",
   },
@@ -17,10 +15,6 @@ export default defineNuxtConfig({
   app: {
     head,
     pageTransition: { name: "fade", mode: "out-in" },
-  },
-
-  build: {
-
   },
 
   css: ["~/assets/css/main.scss"],
