@@ -9,7 +9,7 @@ import { getBlogPosts } from "./hooks/scripts/getBlogPosts"
 
 export default defineNuxtConfig({
   target: 'static',
-  
+
   nitro: {
     preset: "netlify",
   },
@@ -19,10 +19,6 @@ export default defineNuxtConfig({
     pageTransition: { name: "fade", mode: "out-in" },
   },
 
-
-  router: {
-    base: '/Portfolio_AbraAhmed/'  
-  },
   build: {
 
   },
