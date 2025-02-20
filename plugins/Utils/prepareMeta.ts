@@ -17,21 +17,13 @@ export interface IMeta {
 
 const defaultKeywords = [
   "technology",
-  "python",
-  "artificial intelligence",
-  "machine learning",
-  "data science",
-  "node.js",
-  "javascript",
-  "mysql",
-  "web development",
+  "turkish",
+  "developer",
+  "portfolio",
   "vue",
   "nuxt",
   "tailwindcss",
-  "programming",
-  "developer",
-  "portfolio",
-];
+]
 
 /**
  * Simple meta tag provider that accepts some parameters and returns a whole meta.
