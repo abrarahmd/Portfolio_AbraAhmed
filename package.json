@@ -22,7 +22,8 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "start": "nuxi start",
-    "generate": "nuxi generate"
+    "generate": "nuxi generate",
+    "deploy": "nuxt generate && gh-pages -d dist"
   },
   "dependencies": {
     "@nuxt/content": "3.0.0",
@@ -60,6 +61,7 @@
     "consola": "^3.4.0",
     "dotenv": "^16.4.7",
     "front-matter": "^4.0.2",
+    "gh-pages": "^6.3.0",
     "isomorphic-unfetch": "^4.0.2",
     "prettier": "^3.4.2",
     "rehype-autolink-headings": "^7.1.0",
