@@ -17,7 +17,7 @@ interface Project {
 }
 
 const title = "Projects"
-const description = "Check out my projects and see what I can build for you!"
+const description = "Take a look at my works and envision the possibilities!"
 
 useHead({
   title,
@@ -29,244 +29,112 @@ useHead({
 
 const projects = ref<Project[]>([
   {
-    client: "Japan",
-    name: "SWY35 Message Board",
+    client: "Brac University",
+    name: "Categorising Sentiments of Pandemic Tweets - NLP",
     description:
-      "A private social media platform for SWY35 participants. Built with Next.js, Firebase and Tailwind CSS.",
-    image: "https://i.imgur.com/swrQwS1.png",
+      "This project involves categorizing sentiments of pandemic-related tweets using Natural Language Processing (NLP) techniques to analyze public emotions and opinions during the crisis.",
+    image: "/assets/images/projects/prtnlp.jpg",
     buttons: [
       {
-        text: "Video",
-        link: "https://youtu.be/T8YuEpy3sxw",
-        icon: "mdi:play",
-      },
-    ],
-  },
-  {
-    client: "Muş Alparslan University",
-    name: "MAUN Mobile",
-    description: "Mobile application for Mus Alparslan University.",
-    image: "https://i.imgur.com/4xRqunq.png",
-    buttons: [
-      {
-        text: "App Store",
-        link: "https://apps.apple.com/app/id6473739177",
-        icon: "mdi:link",
-      },
-      {
-        text: "Play Store",
-        link: "https://play.google.com/store/apps/details?id=com.maun.mobile",
-        icon: "mdi:link",
-      },
-    ],
-  },
-  {
-    client: "Ankara Büyükşehir Belediyesi",
-    name: "Plant App",
-    description:
-      "An app to display plant information that will be placed on a local museum of plants.",
-    image: "https://i.imgur.com/PmmO69d.png",
-  },
-  {
-    client: "Historia Mall",
-    name: "Historia Floor Plan",
-    description:
-      "A floor plan kiosk app for Historia Shopping and Life Center in Fatih, Istanbul.",
-    image: "https://i.imgur.com/gwxvO4o.jpg",
-  },
-  {
-    client: "GDSC Solution Challenge 2023",
-    name: "Recyling Platform",
-    description:
-      "A platform to help people recycle and be responsible consumers for the good of our environment.",
-    image: "https://i.imgur.com/K0UmgZw.jpeg",
-    buttons: [
-      {
-        text: "Visit",
-        link: "https://recycling.is-important.net/",
-        icon: "mdi:link",
-      },
-    ],
-  },
-  {
-    note: "Acquired!",
-    name: "Discord Server Templates",
-    description:
-      "A website to browse Discord server templates and create your own.",
-    image: "https://i.imgur.com/m64yr7b.jpg",
-    buttons: [
-      {
-        text: "Visit",
-        link: "https://discords.com/templates",
-        icon: "mdi:link",
-      },
-    ],
-  },
-  {
-    name: "PreMiD",
-    description:
-      "A free, open-source, and community-driven rich presence system.",
-    image: "https://i.imgur.com/1Yc1HB0.png",
-    buttons: [
-      {
-        text: "Visit",
-        link: "https://premid.app",
-        icon: "mdi:link",
-      },
-      {
-        text: "PreMiD Pages",
-        link: "/projects/premid",
-        icon: "mdi:link",
-      },
-      {
-        text: "GitHub",
-        link: "https://github.com/PreMiD/PreMiD",
+        text: "Source Code",
+        link: "https://github.com/abrarahmd/Categorising_Sentiments_of_Pandemic_Tweet-NLP",
         icon: "mdi:github",
       },
     ],
   },
   {
-    name: "Discord Steam Verification",
+    client: "Brac University",
+    name: "American Sign Language Detection - CNN",
     description:
-      "A Discord bot to verify if a user owns a specific item on Steam and give them roles!",
-    image: "https://i.imgur.com/D6SDCdC.png",
+      "This project utilizes Convolutional Neural Networks (CNN) to detect and recognize American Sign Language (ASL) gestures for effective communication.",
+    image: "/assets/images/projects/asld.jpg",
     buttons: [
       {
-        text: "GitHub",
-        link: "https://github.com/eggsy/discord-steam-verification",
+        text: "Source Code",
+        link: "https://github.com/abrarahmd/American_Sign_Language_Detection-ML",
         icon: "mdi:github",
       },
     ],
   },
   {
-    name: "Unblock Please",
+    client: "Brac University",
+    name: "GoNuts",
+    description: "GoNuts is a ticket management system for concerts built using ExpressJS, HBS, and CSS for a seamless user experience.",
+    image: "/assets/images/projects/gonuts.jpg",
+    buttons: [
+      {
+        text: "Source Code",
+        link: "https://github.com/abrarahmd/GoNuts",
+        icon: "mdi:github",
+      },
+    ],
+  },
+  {
+    client: "Brac University",
+    name: "TicTacToe - Assembly Language",
     description:
-      "Free to use Chrome extension to unblock Imgur and Pastebin restrictions.",
-    image: "https://i.imgur.com/w5wLpFS.jpg",
+      "Welcome to the Tic Tac Toe Game, a classic 3x3 grid battle between two players, built from the ground up using 8086 Assembly Language. This project showcases the elegance of low-level programming with a nostalgic gaming twist.",
+    image: "/assets/images/projects/tictactoe.jpg",
     buttons: [
       {
-        text: "Add to Chrome",
-        link: "https://chrome.google.com/webstore/detail/unblock-please/lpngbkmgnehdkkobdbieckjpphkohffd",
-        icon: "heroicons:inbox-arrow-down",
-      },
-      {
-        text: "GitHub",
-        link: "https://github.com/eggsy/unblock-please",
+        text: "Source Code",
+        link: "https://github.com/abrarahmd/TicTacToe-Assembly_Language",
         icon: "mdi:github",
       },
     ],
   },
   {
-    name: "Lanyard Visualizer",
-    description: "A web app to visualize your Discord status with Lanyard API.",
-    image: "https://i.imgur.com/XMfWJlL.jpg",
-    buttons: [
-      {
-        text: "Visit",
-        link: "https://visualizer.eggsy.xyz",
-        icon: "mdi:link",
-      },
-      {
-        text: "GitHub",
-        link: "https://github.com/eggsy/lanyard-visualizer",
-        icon: "mdi:github",
-      },
-    ],
-  },
-  {
-    name: "Lanyard Web",
+    client: "Brac University",
+    name: "Email Spam Detection - ML",
     description:
-      "A website concept for Lanyard API, a real-time Discord status widget.",
-    image: "https://i.imgur.com/V8A5H8f.png",
+      "This project utilizes Machine Learning to classify emails as spam or not, enhancing email filtering and security.",
+    image: "/assets/images/projects/esdml.jpg",
     buttons: [
       {
-        text: "Visit",
-        link: "https://lanyard.eggsy.xyz",
-        icon: "mdi:link",
-      },
-      {
-        text: "GitHub",
-        link: "https://github.com/eggsy/lanyard-web",
+        text: "Source Code",
+        link: "https://github.com/abrarahmd/Email_Spam_Detection-ML",
         icon: "mdi:github",
       },
     ],
   },
   {
-    client: "Kuka Sahne",
-    name: "Kuka Sahne Website",
-    description: "A website for a local theatre company.",
-    image: "https://i.imgur.com/uUb3Psk.jpeg",
-    buttons: [
-      {
-        text: "Visit",
-        link: "https://kukasahne.com",
-        icon: "mdi:link",
-      },
-    ],
-  },
-  {
-    name: "Family Feud Game",
+    client: "Brac University",
+    name: "CampusConnect",
     description:
-      "An interactive browser game with real-time (v2) remote control to play within your community!",
-    image: "https://i.imgur.com/1sQQPPH.png",
+      "CampusConnect is designed to streamline campus services and enhance the overall student experience through convenient access to essential resources.",
+    image: "/assets/images/projects/campusconnect.jpg",
     buttons: [
       {
-        text: "Visit",
-        link: "https://associative-words.netlify.app/",
-        icon: "mdi:link",
-      },
-      {
-        text: "GitHub (v2)",
-        link: "https://github.com/eggsy/find-associative-words/tree/socket",
+        text: "Source Code",
+        link: "https://github.com/abrarahmd/CampusConnect",
         icon: "mdi:github",
       },
     ],
   },
   {
-    name: "Movie App",
+    client: "BRAC University",
+    name: "Catch the Diamond",
     description:
-      "A movie website/app concept built with TMDb API, Next.js and Tailwind CSS.",
-    image: "https://i.imgur.com/EQfaqte.jpg",
+      "Welcome to Diamond Catcher, a thrilling game coded in Python using the OpenGL library, where your reflexes are put to the test as you catch falling diamonds and aim for a high score!",
+    image: "/assets/images/projects/catchthediamond.jpg",
     buttons: [
       {
-        text: "Visit",
-        link: "https://movie-app-eggsy.netlify.app/",
-        icon: "mdi:link",
-      },
-      {
-        text: "GitHub",
-        link: "https://github.com/eggsy/movie-app",
+        text: "Source Code",
+        link: "https://github.com/abrarahmd/CatchTheDiamond",
         icon: "mdi:github",
       },
     ],
   },
   {
-    name: "Marmaris Palace Website",
-    description: "A website concept for a 5-star hotel in Marmaris, Türkiye.",
-    image: "https://i.imgur.com/BJ2luOh.jpg",
-    buttons: [
-      {
-        text: "Visit",
-        link: "https://marmaris-palace.netlify.app/",
-        icon: "mdi:link",
-      },
-      {
-        text: "GitHub",
-        link: "https://github.com/eggsy/marmaris-palace-website",
-        icon: "mdi:github",
-      },
-    ],
-  },
-  {
-    note: "You are here!",
-    name: "eggsy.xyz",
+    client: "Brac University",
+    name: "Jurassic Jump",
     description:
-      "My personal website, built with Nuxt.js, Windi CSS and Firebase!",
-    image: "https://i.imgur.com/J4bqPcs.png",
+      "This simple dinosaur jump game, inspired by the offline Google Dino Jump, is implemented using the OpenGL library for an engaging gaming experience.",
+    image: "/assets/images/projects/jurassicjump.png",
     buttons: [
       {
-        text: "GitHub",
-        link: "https://github.com/eggsy/website",
+        text: "Source Code",
+        link: "https://github.com/abrarahmd/Jurassic-Jump",
         icon: "mdi:github",
       },
     ],

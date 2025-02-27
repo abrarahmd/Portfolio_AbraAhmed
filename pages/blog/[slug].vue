@@ -43,7 +43,7 @@ useHead(() => {
   const title = post.value?.title
   const description =
     post.value?.description ||
-    "Abrar'nin blogunda bu yazıyı okumaya davet edildin."
+    "You have been invited to read this article on Abrar's blog.."
 
   const tags = getTags.value?.join(", ") || title
   const href = `https://abrarahmd.dev${route?.path}`
@@ -65,7 +65,7 @@ useHead(() => {
         title,
         description,
         image,
-        keywords: `${tags}, abrar blog, blog, teknoloji, vue, yazılım, discord, abrars`,
+        keywords: `${tags}, abrar blog, blog, technology, vue, software, discord, abrars.`,
         url: href,
       },
       [
@@ -123,19 +123,11 @@ watchEffect(async () => {
           <div
             class="flex flex-wrap items-center gap-x-6 gap-y-2 dark:text-white/30 text-black/50 text-base sm:text-sm"
           >
-            <div class="flex items-center space-x-2">
-              <Icon name="heroicons:calendar" class="w-4 h-4" />
-              <span>{{ getReadableDate }}</span>
-            </div>
+            
 
             <div class="flex items-center space-x-2">
               <Icon name="heroicons:tag" class="w-4 h-4" />
               <span>{{ getTags.join(" － ") }}</span>
-            </div>
-
-            <div class="flex items-center space-x-2">
-              <Icon name="heroicons:eye" class="w-4 h-4" />
-              <span>{{ getReadingTime }} dakika okuma</span>
             </div>
           </div>
 
@@ -217,7 +209,7 @@ watchEffect(async () => {
 
           <div class="space-y-2">
             <h3 class="text-sm dark:text-white/30 text-black/50">
-              Okumaya Devam Et
+              Abrar Ahmed
             </h3>
 
             <BlogPrevNext :path="post.path" />

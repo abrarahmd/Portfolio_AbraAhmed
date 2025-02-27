@@ -7,8 +7,8 @@ const route = useRoute()
  */
 const getLocalizedNotice = computed((): string => {
   if (route.name?.includes("blog"))
-    return "Bu site GitHub üzerinde açık kaynak olarak paylaşılmıştır."
-  else return "This website is open-source on GitHub"
+    return "Empowering the tech community through knowledge and experience."
+  else return "Crafting intelligent solutions for a dynamic world."
 })
 </script>
 

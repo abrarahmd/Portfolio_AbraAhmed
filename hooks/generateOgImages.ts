@@ -7,12 +7,12 @@ import getReadingTime from "../plugins/Utils/getReadingTime"
 import { generateImage } from "./scripts/generateSatoriImage"
 import { getBlogPosts } from "./scripts/getBlogPosts"
 
-// Turkish INTL
-const formatter = new Intl.DateTimeFormat("tr-TR", {
+const formatter = new Intl.DateTimeFormat("en-US", {
   year: "numeric",
   month: "numeric",
   day: "numeric",
 })
+
 
 export const generateOgImages = async () => {
   const folderPath = join(process.cwd(), "public", "og-images")
